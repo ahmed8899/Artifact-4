@@ -1,10 +1,25 @@
-body {
-    background-image: url("https://cdn.pixabay.com/photo/2013/01/04/11/32/toronto-73508_1280.jpg");
+body {background-color:#F2F4EC;}
+
+
+a {
+  font-size: 120%;
 }
-
-
-#errorMessages{
-
-color:red;
-
+a:hover {
+  font-weight: inherit;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: yellowgreen;
+}
+footer {
+  text-align: left;
+  padding-top: 50px;
+}
+.error {
+  color: red;
+}
+p {
+  margin-top: 0px;
 }
